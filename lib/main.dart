@@ -2,7 +2,7 @@ import 'package:app_qr_scanner/pages/home_page.dart';
 import 'package:app_qr_scanner/pages/mapa_page.dart';
 import 'package:app_qr_scanner/providers/ui.provider.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:provider/provider.dart   ';
 
 void main() => runApp(MyApp());
 

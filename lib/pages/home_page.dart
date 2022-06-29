@@ -1,5 +1,7 @@
+import 'package:app_qr_scanner/models/scan_model.dart';
 import 'package:app_qr_scanner/pages/direcciones_page.dart';
 import 'package:app_qr_scanner/pages/mapas_page.dart';
+import 'package:app_qr_scanner/providers/db_provider.dart';
 import 'package:app_qr_scanner/providers/ui.provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -31,6 +33,7 @@ class _HomePageBody extends StatelessWidget {
 
     //cambiar para mostrar la página respectiva
     final currentIndex = iuProvider.selectedMenuOpt;
+
     switch (currentIndex) {
       case 0:
         return MapasPage();
