@@ -1,10 +1,11 @@
+import 'package:app_qr_scanner/providers/scan_list_provider.dart';
+import 'package:app_qr_scanner/widgets/scan_tiles.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 class DireccionesPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Text("Direcciones Page"),
-    );
+    return ScanTiles(tipo: "http");
   }
 }
